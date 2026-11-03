@@ -1,5 +1,5 @@
 {
-  "name": "dsh-balance-widget",
+  "name": "@b9p79rgh6f-sudo/dsh-balance-widget",
   "version": "0.3.2",
   "type": "module",
   "description": "Sidebar-footer balance and usage widget for DeepSeek Harness: account balance, today's tokens and estimated spend, a per-conversation breakdown, and the current peak/idle pricing window.",
