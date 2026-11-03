@@ -19,7 +19,7 @@ DSH 侧边栏底部的常驻小挂件：显示 DeepSeek 账户余额、今日 to
 从插件市场安装，或者：
 
 ```sh
-dsh plugin --profile <profile> add dsh-balance-widget
+dsh plugin --profile <profile> add @b9p79rgh6f-sudo/dsh-balance-widget
 ```
 
 也可以直接从 GitHub 装：
@@ -52,7 +52,7 @@ The sidebar dot is green during idle (half-price) hours and yellow during peak h
 Install from the plugin market, or:
 
 ```sh
-dsh plugin --profile <profile> add dsh-balance-widget
+dsh plugin --profile <profile> add @b9p79rgh6f-sudo/dsh-balance-widget
 dsh plugin --profile <profile> add github:b9p79rgh6f-sudo/dsh-balance-widget
 ```
 
