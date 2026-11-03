@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Balance & Usage",
+    "description": "Keeps the DeepSeek account balance in the sidebar footer, with a panel for today's tokens, estimated spend, and the current session's usage."
+  }
+}

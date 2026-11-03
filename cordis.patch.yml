@@ -1,0 +1,4 @@
+# 余额挂件：宿主页提供今日用量聚合，浏览器页提供侧边栏按钮与明细面板。
+- insert:
+    - id: balance-widget
+      name: 'dsh-balance-widget'

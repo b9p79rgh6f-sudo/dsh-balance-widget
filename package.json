@@ -1,0 +1,53 @@
+{
+  "name": "dsh-balance-widget",
+  "version": "0.3.2",
+  "type": "module",
+  "description": "Sidebar-footer balance and usage widget for DeepSeek Harness: account balance, today's tokens and estimated spend, a per-conversation breakdown, and the current peak/idle pricing window.",
+  "license": "MIT",
+  "author": "b9p79rgh6f-sudo",
+  "homepage": "https://github.com/b9p79rgh6f-sudo/dsh-balance-widget",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b9p79rgh6f-sudo/dsh-balance-widget.git",
+    "directory": "."
+  },
+  "bugs": {
+    "url": "https://github.com/b9p79rgh6f-sudo/dsh-balance-widget/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "balance",
+    "usage",
+    "cost",
+    "sidebar"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="余额与用量">
+  <rect x="6" y="16" width="52" height="36" rx="8" fill="#083090"/>
+  <rect x="6" y="24" width="52" height="6" fill="#0b45c9"/>
+  <circle cx="32" cy="40" r="11" fill="#ffffff" opacity="0.14"/>
+  <path d="M32 31.5v3.2M28.6 34.7h5.2a2.2 2.2 0 0 1 0 4.4h-3.6a2.2 2.2 0 0 0 0 4.4h5.2M32 43.5v3.2"
+        fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+  <rect x="44" y="44" width="10" height="4" rx="2" fill="#4d8bff"/>
+</svg>

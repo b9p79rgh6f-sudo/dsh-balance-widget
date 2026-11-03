@@ -1,0 +1,5 @@
+node_modules/
+_profile-backup/
+*.log
+.DS_Store
+Thumbs.db
